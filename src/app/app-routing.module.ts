@@ -4,12 +4,14 @@ import { PortafolioComponent } from './pages/portafolio/portafolio.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
 import { ProductosComponent } from './pages/productos/productos.component';
+import { ProductosDescripcionComponent } from './pages/productos-descripcion/productos-descripcion.component';
 
 const routes: Routes = [
 {path: 'home', component: PortafolioComponent},
 {path: 'about', component: AboutComponent},
 {path: 'item', component: ItemComponent},
 {path: 'productos', component: ProductosComponent},
+{path: 'productosdescripcion', component: ProductosDescripcionComponent},
 {path: '**', pathMatch: 'full', redirectTo: 'home'},
 
 ];

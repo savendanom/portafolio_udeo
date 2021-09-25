@@ -25,7 +25,7 @@
     </div>
     <section class="ae-container-fluid ae-container-fluid--inner rk-portfolio">
       <div class="rk-portfolio__items">
-        <a href="portfolio-item.html" class="rk-item rk-item--flex rk-size-4 rk-tosize-3 rk-square nginx {{ producto.Clase }}" *ngFor="let producto of producto.info" >
+        <a [routerLink]="['/productosdescripcion', producto]" class="rk-item rk-item--flex rk-size-4 rk-tosize-3 rk-square nginx {{ producto.Clase }}" *ngFor="let producto of producto.info" >
           <div class="item-meta">
             <h2> {{ producto.nombre }} </h2>
           </div>

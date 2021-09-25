@@ -9,7 +9,8 @@ import { PortafolioComponent } from './pages/portafolio/portafolio.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
 import {HttpClientModule} from '@angular/common/http';
-import { ProductosComponent } from './pages/productos/productos.component'
+import { ProductosComponent } from './pages/productos/productos.component';
+import { ProductosDescripcionComponent } from './pages/productos-descripcion/productos-descripcion.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,8 @@ import { ProductosComponent } from './pages/productos/productos.component'
     PortafolioComponent,
     AboutComponent,
     ItemComponent,
-    ProductosComponent
+    ProductosComponent,
+    ProductosDescripcionComponent
   ],
   imports: [
     BrowserModule,
