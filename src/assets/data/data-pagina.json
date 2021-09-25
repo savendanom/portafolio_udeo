@@ -1,0 +1,23 @@
+{
+"titutlo": "Sergio Avendaño",
+"email":"sergiomendia33@gmail.com",
+"nombre_corto":"Sergio",
+"pagina_autor":"https//www.mipagina.com",
+"facebook":"https//www.mipagina.com",
+"instagram":"https//www.mipagina.com",
+"tublr":"https//www.mipagina.com",
+  "equipo_trabajo":[{
+   "nombre":"Rodolfo",
+   "apellido":"Perez",
+   "dpi":"12345678",
+   "dependientes":[{
+     "nombre":"Rodolfo",
+     "apellido":"Perez",
+     "dpi":"14567891"
+   },{
+     "nombre":"Pedro",
+     "apellido":"Perez",
+     "dpi":"8765432"
+      }]
+    }]
+}

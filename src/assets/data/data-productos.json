@@ -1,0 +1,22 @@
+{
+  "productos":[
+    {
+      "nombre":"Libro POX",
+      "descripcion":"Estudio de la ciencia POX",
+      "img":"assets/img/project-2.jpg",
+      "Clase":"item-2"
+    },
+    {
+      "nombre":"Boligrafo",
+      "descripcion":"Boligrafo Vintage",
+      "img":"assets/img/post-6.jpg",
+      "Clase":"item-8"
+    },
+    {
+      "nombre":"Blusa",
+      "descripcion":"Blusa Dama XS",
+      "img":"assets/img/project-15.jpg",
+      "Clase":"item-15"
+    }
+  ]
+}
